@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GeoMusic</string>
+    <string name="that_text">That text!</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Button labels -->
+    <string name="dummy_button">Dummy Button</string>
+    <string name="setting_button">Настройки</string>
+    <string name="personal_info_button">О себе</string>
+
+    <!-- Preference Titles -->
+    <string name="personal_info_header">Информация о себе</string>
+    <string name="geo_location_settings">Настройки геолокации</string>
+
+    <!-- Personal Info Preferences -->
+    <string name="name_label">Никнейм</string>
+    <string name="info_label">О себе</string>
+
+    <!-- Geo Preferences -->
+    <string name="permission_label">Работа в фоновом режиме</string>
+    <string name="radius_label">Радиус поиска (в км)</string>
+</resources>

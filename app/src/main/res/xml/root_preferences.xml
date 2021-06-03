@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+    <PreferenceCategory
+        app:title="@string/personal_info_header"
+        app:icon="@drawable/ic_baseline_info_24">
+
+        <EditTextPreference
+            android:defaultValue="true"
+            android:key="edit_text_preference_name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/name_label"
+            android:summary=""/>
+        <EditTextPreference
+            android:key="edit_text_preference_info"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            android:title="@string/info_label" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/geo_location_settings"
+        app:icon="@drawable/ic_baseline_my_location_24">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:key="switch_permission"
+            app:title="@string/permission_label" />
+        <SeekBarPreference
+            android:key="edit_text_preference_max_radius"
+            android:max="40"
+            android:singleLine="true"
+            android:title="@string/radius_label"
+            app:min="2"
+            app:showSeekBarValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
